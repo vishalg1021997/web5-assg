@@ -1,0 +1,78 @@
+1
+Problem
+Goto https://codesandbox.io/ and create a react project
+create a Button component inside App.js ( make sure your component is starting with a capital letter )
+a component means a function
+the text should be your <name> click me
+apply a className on it, just add the corresponding class into the style.css file to give a background colour of Tomato, and give a padding 1rem to it
+
+https://codesandbox.io/s/react-button-3tx037?file=/src/App.js
+
+
+
+2
+Problem
+Goto https://codesandbox.io/ and create a react project
+create an Avatar along with Button component inside App.js ( make sure your component is starting with a capital letter )
+a component means a function
+the Avatar will have your image, add styles to the img tag ( as an object, make it rounded with border thickness )
+add a caption with your name
+the image url, and name should come from an user object
+use {} curly brackets and reference the data from the object inside the component
+const userDetails = { 
+
+}
+
+https://codesandbox.io/s/avatar-component-wcv7cp?file=/src/App.js
+
+
+
+3
+Problem
+using a condition decide to decide how a component should render
+{ condition ? ONTRUE : ONFALSE }
+if rounded, then show a rounded avatar component
+if not rounded show a normal rounded of 1rem for the image
+add another prop, hideName, if hideName is true, then the name should not be shown
+{ hideName ? <h1> </h1> : null}
+
+https://codesandbox.io/s/avatar-component-wcv7cp?file=/src/component/Avatar.jsx
+
+
+
+4
+Problem
+create a component called Skills
+<Skills items={["skill1","skill2","skill3"]}/>
+you should be able to map through these items and display li elements
+{ props.items.map(...) }
+write the code using React.createElement and using JSX as well
+
+https://codesandbox.io/s/render-list-of-items-ouyxhz?file=/src/component/Skills.jsx
+
+
+
+5
+Problem
+create a component called Button
+add an onClick listener, when a user clicks on the button it should print the text
+<Button name="Masai" /> -> on clicking the button, it should have an alert box which says You clicked Masai!
+
+https://codesandbox.io/s/button-event-listener-gviyxd?file=/src/component/Button.jsx
+
+
+
+6
+Problem
+create a UserProfile component component
+it should accept users name, avatar_url, title and a set of skillsets with icons they possess
+name - string
+avatar_url - string
+title - string
+skillsets - array of objects - [ { icon: string, description } ]
+<UserProfile name...string avatar_url...string title...string skillsets... array of objects />
+You need to display a nice UI with the image of the person, and details as shown as in the image
+create the skillsets on the side
+Screenshot 2022-06-23 at 7.36.16 PM.png(https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-06-23/Screenshot%202022-06-23%20at%207.36.16%20PM_218513.png)
+
+https://codesandbox.io/s/userprofile-phvwn9?file=/src/component/Profile.jsx
