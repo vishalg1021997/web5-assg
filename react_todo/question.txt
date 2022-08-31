@@ -1,0 +1,23 @@
+REACT PRACTICE CONTEST - 1
+Create a react application;
+Your application should contain A profile component on left hand side and a Todo List component on right hand side;
+Profile Component :
+Profile component can contain details about a user; You can have profile details like image, name, age, location, organisation of user;
+Profile Component should have two button Increase Age and Decrease Age with which user can increase or decrease the age;
+Profile Component should also contain a button Show More Details clicking on which should showcase more details and can be toggled; If details are being shown; the button text should be Hide More Details and vice versa;
+TodoList :
+as the name suggests; You will have to render a list of todos; use the below data;
+[
+  { id: 1, title: "Wake up", status: true },
+  { id: 2, title: "drink tea", status: false },
+  { id: 3, title: "eat maggi", status: true },
+  { id: 4, title: "sleep", status: false }
+]
+You'll have to separate components and needs to pass individual todos as props from parent component to child component;
+basis the completion status; if the completion status is true; the todo item should be in green color; if it's false, the completion status should be in red color;
+Make sure that there are no errors or warning that comes in console before submission;
+checkout this video for more details : (https://watch.screencastify.com/v/tADWILx4jFxnpRGH6a7m)
+Bonus :
+Todo :
+An input box which would allow you to add more todos; By details the status is false for an item which is just created; you can use uuid library ( https://www.npmjs.com/package/uuid ) to generate ids
+You can also implement checkbox functionality which could update the completion status of todo; ( Hint : look for checked property while using checkbox )
